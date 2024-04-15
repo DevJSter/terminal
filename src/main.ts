@@ -224,7 +224,7 @@ function commandHandler(input : string) {
     case 'home':
       writeLines(["Redirecting to github...", "<br>"]);
       setTimeout(() => {
-        window.open('https://github.com/shawakash');
+        window.open('https://github.com/devjster');
       }, 500);
       break;
     case 'wave':

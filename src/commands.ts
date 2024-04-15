@@ -100,7 +100,7 @@ const helpObj = {
     ],
     [
       "'home'",
-      "Go back to github/shawakash"
+      "Go back to github/devjster"
     ],
     [
       "'wave'",
@@ -227,7 +227,7 @@ const createAbout = () : string[] => {
   string += SPACE.repeat(2);
   string += substack;
   string += SPACE.repeat(30 - SUBSTACK.length);  
-  string += `<a target='_blank' href='https://${command.social.substack}.substack.com'>${command.social.substack}.substack.com</a>`;
+  // string += `<a target='_blank' href='https://${command.social.substack}.substack.com'>${command.social.substack}.substack.com</a>`;
   about.push(string);
 
   string = '';
