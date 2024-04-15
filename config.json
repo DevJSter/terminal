@@ -1,22 +1,23 @@
 {
   "ascii": [
-    "███████╗██╗  ██╗ █████╗ ██╗    ██╗",
-    "██╔════╝██║  ██║██╔══██╗██║    ██║",
-    "███████╗███████║███████║██║ █╗ ██║",
-    "╚════██║██╔══██║██╔══██║██║███╗██║",
-    "███████║██║  ██║██║  ██║╚███╔███╔╝",
-    "╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝"
+    
+"███████╗██╗  ██╗██╗   ██╗██████╗ ██╗  ██╗ █████╗ ███╗   ███╗",
+"██╔════╝██║  ██║██║   ██║██╔══██╗██║  ██║██╔══██╗████╗ ████║",
+"███████╗███████║██║   ██║██████╔╝███████║███████║██╔████╔██║",
+"╚════██║██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██║╚██╔╝██║",
+"███████║██║  ██║╚██████╔╝██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║",
+"╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝   ╚═╝"
   ],
 
-  "repoLink": "https://github.com/shawakash/shaws",
+  "repoLink": "https://github.com/devjster/terminal",
   "social": {
-    "email": "shawakash2003@gmail.com",
-    "github": "shawakash",
-    "linkedin": "shawakash",
-    "substack": "shawakash",
-    "youtube": "shawakash"
+    "email": "shubht3303@gmail.com",
+    "github": "DevJSter",
+    "linkedin": "DevTshubham",
+    "twitter": "DevTshubham",
+    "youtube": "DevTshubham"
   },
-  "aboutGreeting": "Hi I'm Akash. I practise full stack engineering and currently a undergrad in ECE.",
+  "aboutGreeting": "Hi I'm Shubham. I practise full stack engineering and currently a Pre Final Year undergrad in ECE.",
   "projects": [
     [
       "PayBox",
