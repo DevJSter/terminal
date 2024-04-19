@@ -74,7 +74,7 @@ const helpObj = {
   "commands": [
     [
     "'about'",
-    "Who is Akash?",
+    "Who is Shubham?",
     ],
     [
       "'projects'",
@@ -197,13 +197,13 @@ const createAbout = () : string[] => {
   const EMAIL = "Email";
   const GITHUB = "Github";
   const LINKEDIN = "Linkedin";
-  const SUBSTACK = "Substack";
+  // const SUBSTACK = "Substack";
   const YOUTUBE = 'Youtube';
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i style="margin-left:1px;margin-right:-1px;" class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
-  const substack = `<i style="margin-left: 1px; margin-right:2px;"  class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
+  // const substack = `<i style="margin-left: 1px; margin-right:2px;"  class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
   const youtube = `<i style="margin-right:-2px;" class='fa-brands fa-youtube'></i> ${YOUTUBE}`;
   let string = "";
 
@@ -223,18 +223,18 @@ const createAbout = () : string[] => {
   string += `<a target='_blank' href='https://github.com/${command.social.github}'>github/${command.social.github}</a>`;
   about.push(string);
 
-  string = '';
-  string += SPACE.repeat(2);
-  string += substack;
-  string += SPACE.repeat(30 - SUBSTACK.length);  
-  // string += `<a target='_blank' href='https://${command.social.substack}.substack.com'>${command.social.substack}.substack.com</a>`;
-  about.push(string);
+  // string = '';
+  // string += SPACE.repeat(2);
+  // string += substack;
+  // string += SPACE.repeat(30 - SUBSTACK.length);  
+  // // string += `<a target='_blank' href='https://${command.social.substack}.substack.com'>${command.social.substack}.substack.com</a>`;
+  // about.push(string);
 
   string = '';
   string += SPACE.repeat(2);
   string += youtube;
   string += SPACE.repeat(30 - YOUTUBE.length);  
-  string += `<a target='_blank' href='https://youtube.com/${command.social.youtube}'>youtube/${command.social.youtube}</a>`;
+  string += `<a target='_blank' href='https://www.youtube.com/channel/UCdxSUrGaRvqDwUYrPq2YjAg'>youtube/${command.social.youtube}</a>`;
   about.push(string);
 
   string = '';
