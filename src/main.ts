@@ -227,12 +227,6 @@ function commandHandler(input : string) {
         window.open('https://github.com/devjster');
       }, 500);
       break;
-    case 'wave':
-      writeLines(["Redirecting to waver...", "<br>"]);
-      setTimeout(() => {
-        window.open('https://wavers-bg2xh6fl4-shawakash.vercel.app/');
-      }, 500);
-      break;
     case 'rm -rf':
       if (bareMode) {
         writeLines(["don't try again.", "<br>"])

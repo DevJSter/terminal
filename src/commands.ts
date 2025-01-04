@@ -102,10 +102,6 @@ const helpObj = {
       "'home'",
       "Go back to github/devjster"
     ],
-    [
-      "'wave'",
-      "Write something for me"
-    ]
   ],
 }
 
